@@ -6,11 +6,9 @@
 
 ## Spec
 
-![Main Page](/screenshots/application.png "Main Page")
-
-![Input Page](/screenshots/input.png)
-
-![Result Page](/screenshots/result.png)
+![](/screenshots/application.png "Main Page")
+![](/screenshots/input.png "User Input")
+![](/screenshots/result.png "Result Page")
 
 ## Available Commands
 
