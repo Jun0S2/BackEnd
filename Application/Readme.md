@@ -7,7 +7,7 @@
 ## Spec
   Main Page           |  User Input           |  Result Page           
 :-------------------------:|:-------------------------:|:-------------------------:
-![application](https://user-images.githubusercontent.com/36508552/136336785-99b8f8c9-8229-46c6-ad99-d6d07a95456a.PNG "Main Page")  |  ![input](https://user-images.githubusercontent.com/36508552/136336791-61afb80c-f1be-41de-90a7-da339fb1cd7b.PNG "User Input")  |![result](https://user-images.githubusercontent.com/36508552/136350308-947568dd-049f-4e2c-a214-b87b486371fe.png)
+![application](https://user-images.githubusercontent.com/36508552/136336785-99b8f8c9-8229-46c6-ad99-d6d07a95456a.PNG "Main Page")  |  ![input](https://user-images.githubusercontent.com/36508552/136336791-61afb80c-f1be-41de-90a7-da339fb1cd7b.PNG "User Input")  |![result](https://user-images.githubusercontent.com/36508552/136350420-eaf35106-27b1-4a86-84c5-99963ef5833d.png)
 
 
 In this project, an objective was to create an application page and show user input as an table.
