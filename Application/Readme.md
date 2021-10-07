@@ -7,9 +7,10 @@
 ## Spec
   Main Page           |  User Input (none)       |  User Input          | Result Page         
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-[] https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/application.PNG?raw=true  | [] https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/inputNone.png?raw=true |
- []  https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/input.png?raw=true  |
-[]   https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/result.png?raw=true
+![application](https://user-images.githubusercontent.com/36508552/136431343-2016900c-a608-42b8-bd93-e06966d6328a.PNG)|
+![inputNone](https://user-images.githubusercontent.com/36508552/136431383-ca05f859-96c0-4d36-9121-dd48625feebc.png)  |
+![input](https://user-images.githubusercontent.com/36508552/136431411-c460e32d-246d-43fd-9336-38af72b5e054.png)|
+  ![result](https://user-images.githubusercontent.com/36508552/136431435-c3f409e8-885e-4925-a91b-2f6f53429bee.png)
 
 
 In this project, an objective was to create an application page and show user input as an table.
