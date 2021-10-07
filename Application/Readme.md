@@ -42,6 +42,7 @@ JSP     - Print result table
 ## Future Updates
   
 - [ ] Cleaner Code   👻
+- [ ] Use for loops and arrays to get request.getParameter(args0) 🤹‍♀️
 - [ ] Fancier Design 😎
 
 
@@ -49,12 +50,10 @@ JSP     - Print result table
 
 **June Park**
 
-- [Profile](https://befitting-locust-a2c.notion.site/June-Park-9a0d59ecf3b242bf9fba1b2f935629c1 "June Park")
+- [About Me](https://befitting-locust-a2c.notion.site/June-Park-9a0d59ecf3b242bf9fba1b2f935629c1 "June Park")
 - [Email](mailto:hp0006@mix.wvu.edu?subject=Hi "Hi!")
-- [Website](https://velog.io/@junbee "Blog")
+- [Blog](https://velog.io/@junbee "Blog")
 
-## 🤝 Support
-
-Contributions, issues, and feature requests are welcome!
-
-Give a ⭐️ if you like this project!
+## 🤝 Practice Makes Perfect
+🕸️ First time ever learning web 🕸️
+Will keep practicing till I get it :)
