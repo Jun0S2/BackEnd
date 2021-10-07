@@ -7,9 +7,9 @@
 ## Spec
   Main Page           |  User Input (none)       |  User Input          | Result Page         
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/application.PNG?raw=true  | https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/inputNone.png?raw=true |
-  https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/input.png?raw=true  |
-  https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/result.png?raw=true
+[] https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/application.PNG?raw=true  | [] https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/inputNone.png?raw=true |
+ []  https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/input.png?raw=true  |
+[]   https://github.com/Jun0S2/BackEnd/blob/main/Application/screenshots/result.png?raw=true
 
 
 In this project, an objective was to create an application page and show user input as an table.
