@@ -49,7 +49,7 @@ JSP     - Print result table
 
 **June Park**
 
-- [Profile](https://www.notion.so/June-Park-9a0d59ecf3b242bf9fba1b2f935629c1 "June Park")
+- [Profile](https://befitting-locust-a2c.notion.site/June-Park-9a0d59ecf3b242bf9fba1b2f935629c1 "June Park")
 - [Email](mailto:hp0006@mix.wvu.edu?subject=Hi "Hi!")
 - [Website](https://velog.io/@junbee "Blog")
 
