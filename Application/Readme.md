@@ -4,21 +4,13 @@
 
 ## Links
 
-- [Repo](https://github.com/Rohit19060/<project-name> "<project-name> Repo")
+## Speci
 
-- [Live](<Homepage url> "Live View")
+![Home Page](/screenshots/application.png "Home Page")
 
-- [Bugs](https://github.com/Rohit19060/<project-name>/issues "Issues Page")
+![](/screenshots/input.png)
 
-- [API](<API Link> "API")
-
-## Screenshots
-
-![Home Page](/screenshots/1.png "Home Page")
-
-![](/screenshots/2.png)
-
-![](/screenshots/3.png)
+![](/screenshots/result.png)
 
 ## Available Commands
 
