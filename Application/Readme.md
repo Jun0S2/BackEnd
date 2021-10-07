@@ -4,13 +4,13 @@
 
 ## Links
 
-## Speci
+## Spec
 
-![Home Page](/screenshots/application.png "Home Page")
+![Main Page](/screenshots/application.png "Main Page")
 
-![](/screenshots/input.png)
+![Input Page](/screenshots/input.png)
 
-![](/screenshots/result.png)
+![Result Page](/screenshots/result.png)
 
 ## Available Commands
 
