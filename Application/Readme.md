@@ -5,12 +5,12 @@
 ## Links
 
 ## Spec
-  Main Page           |  User Input (none)       |  User Input          | Result Page         
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![application](https://user-images.githubusercontent.com/36508552/136431343-2016900c-a608-42b8-bd93-e06966d6328a.PNG)|
-![inputNone](https://user-images.githubusercontent.com/36508552/136431383-ca05f859-96c0-4d36-9121-dd48625feebc.png)  |
-![input](https://user-images.githubusercontent.com/36508552/136431411-c460e32d-246d-43fd-9336-38af72b5e054.png)|
-  ![result](https://user-images.githubusercontent.com/36508552/136431435-c3f409e8-885e-4925-a91b-2f6f53429bee.png)
+  Main Page           |  Result Page and DB
+:-------------------------:|:-------------------------:
+![application](https://user-images.githubusercontent.com/36508552/136431954-e6fb8511-5ec7-4b19-bb8b-8460087de7ef.png) | ![inputNone](https://user-images.githubusercontent.com/36508552/136431970-2e0c7c90-e2fd-4b93-a2d2-fa15ce2f041e.png) 
+   User Input         |  Result Page and DB   
+![input](https://user-images.githubusercontent.com/36508552/136433177-1290f510-ae61-4cd8-8374-58a7f5c42c59.png) | ![result](https://user-images.githubusercontent.com/36508552/136433192-d43c9a67-71ce-4f77-8795-5feaa3e04561.png)
+
 
 
 In this project, an objective was to create an application page and show user input as an table.
@@ -43,7 +43,8 @@ JSP     - Print result table
 - JSP
 
 ## Future Updates
-  
+
+- [ ] Use Foreign Key for row Courses
 - [ ] Cleaner Code   👻
 - [ ] Use for loops and arrays to get request.getParameter(args0) 🤹‍♀️
 - [ ] Fancier Design 😎
