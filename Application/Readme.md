@@ -13,15 +13,15 @@
 In this project, an objective was to create an application page and show user input as an table.
 Three different methods were used to create this web page to practice Servlet, JSP, and MVC pattern.
   
-### `"Method 1" : "Servlet"`,
+### `"Method 1" : "Servlet"`
 
 Create an application page using Servlet and Html
-
-### `"Method 2": "JSP"`,
+  
+### `"Method 2": "JSP"`
 
 Use JSP to create an application page by getting user input and display output table 
 
-### `"Method 3": "MVC Pattern"`,
+### `"Method 3": "MVC Pattern"`
 
 Use MVC Pattern to create an application page.
 Servlet - direct to user input page
@@ -41,15 +41,17 @@ JSP     - Print result table
 
 ## Future Updates
   
-- [ ] Reliable Storage
+- [ ] Cleaner Code   👻
+- [ ] Fancier Design 😎
+
 
 ## Author
 
 **June Park**
 
-- [Profile](https://github.com/rohit19060 "Rohit jain")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
-- [Website](https://kingtechnologies.in "Welcome")
+- [Profile](https://www.notion.so/June-Park-9a0d59ecf3b242bf9fba1b2f935629c1 "June Park")
+- [Email](mailto:hp0006@mix.wvu.edu?subject=Hi "Hi!")
+- [Website](https://velog.io/@junbee "Blog")
 
 ## 🤝 Support
 
