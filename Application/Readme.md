@@ -5,11 +5,10 @@
 ## Links
 
 ## Spec
-![application](https://user-images.githubusercontent.com/36508552/136336785-99b8f8c9-8229-46c6-ad99-d6d07a95456a.PNG "Main Page")
+  Main Page           |  User Input           |  Result Page           
+:-------------------------:|:-------------------------:|:-------------------------:
+![application](https://user-images.githubusercontent.com/36508552/136336785-99b8f8c9-8229-46c6-ad99-d6d07a95456a.PNG "Main Page")  |  ![input](https://user-images.githubusercontent.com/36508552/136336791-61afb80c-f1be-41de-90a7-da339fb1cd7b.PNG "User Input")  |![result](https://user-images.githubusercontent.com/36508552/136336798-6ac77160-99de-48a5-bbc5-0befa052b4dd.PNG "Result Page")
 
-![input](https://user-images.githubusercontent.com/36508552/136336791-61afb80c-f1be-41de-90a7-da339fb1cd7b.PNG "User Input")
-
-![result](https://user-images.githubusercontent.com/36508552/136336798-6ac77160-99de-48a5-bbc5-0befa052b4dd.PNG "Result Page")
 
 ## Available Commands
 
