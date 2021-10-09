@@ -110,8 +110,12 @@ JSP는 자바 코드를 <% %> 구조를 사용하여 출력 화면에 필요한 
 
 ## How it Works?
 JSP로 작성된 프로그램은 서버로 요청시 서블릿 파일로 변환되어 JSP 태그를 분해하고 추출되어 다시 순수한 HTML 이 되어 해석된다. 
-![](https://images.velog.io/images/junbee/post/21fea9d8-e3ad-4634-b187-e5b170db779a/image.png)
-이미지 출처: https://slidetodoc.com/cs-3220-web-and-internet-programming-introduction-to-5/
+<p align="center">
+	<img src = "https://images.velog.io/images/junbee/post/21fea9d8-e3ad-4634-b187-e5b170db779a/image.png"><br>
+	이미지 출처: https://slidetodoc.com/cs-3220-web-and-internet-programming-introduction-to-5/
+</p>
+
+
 
 위 그림을 보면, JSP가 서블릿으로 변환되어 서버로 전송되고, HTML 코드만 브라우저에 의해 프로세스 되는 것을 볼 수 있다. 
 > 참고로, 구글에 translate jsp to servlet을 검색하면 다양한 사이트들이 나오는데 좀 더 공부하고 싶다면 한번 검색해 보는 것을 추천한다. 
