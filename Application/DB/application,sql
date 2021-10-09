@@ -1,0 +1,9 @@
+CREATE TABLE `application` (
+  `name` varchar(20) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `email` varchar(20) DEFAULT NULL,
+  `degree` varchar(20) DEFAULT '선택안함',
+  `courses` varchar(50) DEFAULT '입력하지 않음',
+  `choose` varchar(20) DEFAULT NULL,
+  `agreement` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
