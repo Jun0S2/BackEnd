@@ -4,6 +4,8 @@
     pageEncoding="UTF-8"%>
 <%
 	//수정할 게시글 번호:
+	response.setContentType("text/html;charset = utf-8");
+	request.setCharacterEncoding("utf-8");
 	int no = Integer.parseInt(request.getParameter("no"));
 	BoardDAO dao = new BoardDAO();//database
 	BoardDto board = dao.selectBoard(no);//get previous board info
