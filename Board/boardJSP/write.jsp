@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+response.setContentType("text/html;charset = utf-8");
+request.setCharacterEncoding("utf-8");
+ %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +12,7 @@
 </head>
 <body>
 	<div>
-		<h2>대전 3반 이야기</h2>
+		<h2>대전 게시판</h2>
 		
 		<form action = "/Board/boardJSP/write-process.jsp" method = "post">
 			<div>
