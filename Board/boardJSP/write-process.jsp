@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import = "board.dto.BoardDto" %>
 <%@ page import = "board.dao.BoardDAO" %>
- <%-- Write Process는 화면이 아니라, 게시글 작성 등록을 도와주는 애임 . 따라서 html코드는 필요 없다--%>
+<%-- Write Process는 화면이 아니라, 게시글 작성 등록을 도와주는 애임 . 따라서 html코드는 필요 없다--%>
 <%
 	request.setCharacterEncoding("utf-8");
 	//Get Data
