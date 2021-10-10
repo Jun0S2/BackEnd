@@ -27,5 +27,8 @@ public class BoardDAO {
 	public int deleteBoard(int no) throws SQLException{
 		return SqlSession.delete("delete from board where no = ?", no);
 	}
-	
+	//조회수 증가
+	public int increaseView(int view, int no) throws SQLException{
+		return SqlSession.update("update board set viewCnt =? where no = ?", view+1, no);
+	}
 }
