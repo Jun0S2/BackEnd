@@ -3,8 +3,8 @@ package board.dao;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.ssafy.board.dto.BoardDto;
-import com.ssafy.util.SqlSession;
+import board.dto.BoardDto;
+import util.SqlSession;
 
 public class BoardDAO {
 	//전체 게시글 리스트 조회
