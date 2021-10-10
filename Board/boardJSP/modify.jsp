@@ -3,6 +3,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
+response.setContentType("text/html;charset = utf-8");
+request.setCharacterEncoding("utf-8");
 	int no = Integer.parseInt(request.getParameter("no"));
 	BoardDAO dao = new BoardDAO();
 	BoardDto board = dao.selectBoard(no);
@@ -15,7 +17,7 @@
 </head>
 <body>
 	<div>
-		<h2>대전 3반 이야기</h2>
+		<h2>대전 게시판</h2>
 		<form action="/Board/boardJSP/modify-process.jsp" method="post">
 			<input type="hidden" name="no" value="<%= no %>" />
  			<div>
