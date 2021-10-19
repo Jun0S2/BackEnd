@@ -25,5 +25,12 @@ UnitTest 등을 처리하는 영역
 webapp은 web application의 약자로, web 과 관련된 컨텐츠는 이 폴더에 저장
 
 ### `src/main/webapp/WEB-INF`
+#### Previously in Servlet: 
 JSP를 WEB-INF 폴더 안에 생성하면 읽지 못하니 주의해야함
 ** WEB-INF는 절대로 직접 접근할 수 없는 경로이다 ! **
+### Now in Maven Project : 
+src/main/WEB-INF/views 에 jsp 파일을 추가한다!
+
+# 실행 방법
+Servlet 에서는, index.html또는, index.jsp 를 실행 시켜서 프로젝트를 실행했다면,
+Maven Project에서는 프로젝트 폴더를 잡고 실행시키면 된다.
