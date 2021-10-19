@@ -10,3 +10,16 @@ ex: com.project.blahblah..
 
 # Maven Project Explorer 설명
 <p align = "center"><img src ="https://user-images.githubusercontent.com/36508552/137943884-9abbaf31-e36a-40bf-b3a1-67b5839042d5.PNG"></p>
+
+## src/main/java
+자바 코딩 영역
+## src/main/resources
+설정이 들어가는 영역 (ex : MyBatis)
+## src/test/java
+UnitTest 등을 처리하는 영역
+## src 폴더
+<p align="center"><img src = "https://user-images.githubusercontent.com/36508552/137944630-d0320147-626a-4091-9fbf-727593147ab7.png"></p>
+
+### src/main/webapp
+webapp은 web application의 약자로, web 과 관련된 컨텐츠는 이 폴더에 저장
+
