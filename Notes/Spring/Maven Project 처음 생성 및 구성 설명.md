@@ -24,3 +24,6 @@ UnitTest 등을 처리하는 영역
 ### `src/main/webapp`
 webapp은 web application의 약자로, web 과 관련된 컨텐츠는 이 폴더에 저장
 
+### `src/main/webapp/WEB-INF`
+JSP를 WEB-INF 폴더 안에 생성하면 읽지 못하니 주의해야함
+** WEB-INF는 절대로 직접 접근할 수 없는 경로이다 ! **
