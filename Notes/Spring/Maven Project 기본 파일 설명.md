@@ -41,7 +41,7 @@ web.xml의 기본 코드는 아래와 같다.
 </web-app>
 
 ```
-1. DispatcherServlet을 설정
+## 1. DispatcherServlet을 설정
 
 ```xml
 	<!-- Processes application requests -->
@@ -62,15 +62,13 @@ web.xml의 기본 코드는 아래와 같다.
 
 ```
 `<servlet mapping>` 을 보면 url-pattern이 '/' 로 되어있는데, 즉, 이 '/'를 만나면 appServlet이라는 서블릿을 찾고, 그 위의 `<servlet>`을 보면, appServlet을 찾을 수 있다. 이 appServlet은 ispatcherServlet을 생성하고 있다 (`init-parama`이 생성해주고, 이 디스페치서블릿이 할 일들은 servlet-context.xml안에 저장되어 있다. )
-
-#### 요소 설명
 1. `<init-param>`: `<init-param>`을 설정하지 않으면 `<servlet-name>-servlet.xml`파일에서 applicationContext 정보를 로드한다
 2. `Spring Container` : 설정 파일의 내용을 읽고 ApplicationContext 객체를 생성한다
 3. `<url-pattern>`: DispatcherServlet이 처리하는 **URL Mapping Pattern**을 정의
 4. `<load-on-startup>1</load-on-startup>`: 설정 시 WAS startup시 초기화 작업을 진행
 ** DispatcherServlet은 Servlet이기 때문에, 1개 이상의 DispatcherServlet을 설정할 수 있다!
 
-2. Event 발생
+## 2. Event 발생
 ```xml
 	<!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
 	<context-param>
@@ -83,7 +81,6 @@ web.xml의 기본 코드는 아래와 같다.
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 ```
-#### 요소 설명
 1. `<listener>` : `<listener>`은 big brothers 같은 녀석이다. 항상 감시하다가 이벤트가 발생하면 `<context-param>`의 root-context.xml을 읽어 들인다.
 
 # servlet-context.xml 과 root-context.xml
@@ -124,7 +121,6 @@ web.xml의 기본 코드는 아래와 같다.
 </beans:beans>
 
 ```
-#### 요소 설명
 1. `<resources mapping>` : resrouce관련 처리
 2. `view resolver`
 view resolver은 jsp의 경로를 주는 요소이다.<br>
@@ -154,6 +150,5 @@ view resolver은 jsp의 경로를 주는 요소이다.<br>
 </beans>
 
 ```
-#### 요소 설명
 1. root-context.xml 안에는 다른 요소는 없지만, 우리가 설정할 수 있는 영역이 나와있는걸 볼 수 있다.
 2. 웹을 제외한 설정을 한는 영역이다
