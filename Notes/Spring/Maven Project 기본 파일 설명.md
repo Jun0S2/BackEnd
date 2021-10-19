@@ -152,3 +152,4 @@ view resolver은 jsp의 경로를 주는 요소이다.<br>
 ```
 1. root-context.xml 안에는 다른 요소는 없지만, 우리가 설정할 수 있는 영역이 나와있는걸 볼 수 있다.
 2. 웹을 제외한 설정을 한는 영역이다
+Ex : DataSource 같은 DB를 이곳에 설정한다.
