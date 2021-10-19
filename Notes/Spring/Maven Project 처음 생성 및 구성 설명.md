@@ -18,23 +18,23 @@ ex: 만일 프로젝트명이 com.user.mvc 라면, 프로젝트를 생성했을 
 # Maven Project Explorer 설명
 <p align = "center"><img src ="https://user-images.githubusercontent.com/36508552/137943884-9abbaf31-e36a-40bf-b3a1-67b5839042d5.PNG"></p>
 
-### `src/main/java`
+### src/main/java
 자바 코딩 영역
-### `"rc/main/resources`
+### src/main/resources
 설정이 들어가는 영역 (ex : MyBatis)
-### `src/test/java`
+### src/test/java
 UnitTest 등을 처리하는 영역
-### `src 폴더`
+### src 폴더
 <p align="center"><img src = "https://user-images.githubusercontent.com/36508552/137944630-d0320147-626a-4091-9fbf-727593147ab7.png"></p>
 
-#### `src/main/webapp`
+### `src/main/webapp`
 webapp은 web application의 약자로, web 과 관련된 컨텐츠는 이 폴더에 저장
 
-#### `src/main/webapp/WEB-INF`
-#### Previously in Servlet: 
+### `src/main/webapp/WEB-INF`
+### Previously in Servlet: 
 JSP를 WEB-INF 폴더 안에 생성하면 읽지 못하니 주의해야함
 ** WEB-INF는 절대로 직접 접근할 수 없는 경로이다 ! **
-#### Now in Maven Project : 
+### Now in Maven Project : 
 src/main/WEB-INF/views 에 jsp 파일을 추가한다!
 
 # 실행 방법
