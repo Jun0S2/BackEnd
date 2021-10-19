@@ -93,7 +93,67 @@ web.xml의 기본 코드는 아래와 같다.
 
 ## servlet-context.xml
 
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+	
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<annotation-driven />
+
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
+	<resources mapping="/resources/**" location="/resources/" />
+
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+	
+	<context:component-scan base-package="com.ssafy.mvc" />
+	
+	
+	
+</beans:beans>
+
+```
+#### 요소 설명
+1. `<resources mapping>` : resrouce관련 처리
+2. `view resolver`
+view resolver은 jsp의 경로를 주는 요소이다.<br>
+아래 코드를 보면, prefix에는 /WEB-INF/views/ suffix에는 .jsp 를 붙이고 있다.<br>
+즉, 예를 들어 referencing할 주소가 login 이라고 한다면 login 앞에 prefix를 붙이고 뒤에 suffix가 되어서 /WEB-INF/views/login.jsp 라는 주소를 생성해낸다.<br>
+따라서, login만 설정해주면 주소를 알아서 생성해준다
+```xml
+<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+```
+3. `<context:component-scan ... >` : base-package 안에 있는 components들을(Controller, Service, Repositories) 자동으로 읽어들인다.
+
+
 ## root-context.xml
+```xml
 
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		
+</beans>
 
-
+```
+#### 요소 설명
+1. root-context.xml 안에는 다른 요소는 없지만, 우리가 설정할 수 있는 영역이 나와있는걸 볼 수 있다.
+2. 웹을 제외한 설정을 한는 영역이다
