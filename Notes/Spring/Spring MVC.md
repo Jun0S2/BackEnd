@@ -28,6 +28,10 @@
 
 
 # Spring MVC
+<p align = "center">
+<img src  = "https://user-images.githubusercontent.com/36508552/138025620-4e20d1d8-4e5b-40ee-b892-eceaa66a465f.PNG">
+</p>
+
 ## 특징
 * Spring은 DI 나 AOP같은 기능뿐만 아니라, Servlet 기반의 Web 개발을 위한 MVC Framework를 제공한다
 * Spring은 MVC 패턴과 Front Controller Pattern을 제공
