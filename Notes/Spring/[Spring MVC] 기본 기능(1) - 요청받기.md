@@ -74,14 +74,17 @@ public String test01(){
   <h3 style = "margin:3% 2%;" > Step 4 - 결과 확인</h3>
 </div>
 
+<br>
 결과를 확인해보면, index1.jsp가 다시 로딩되는것을 볼 수 있다. 콘솔창에 메시지가 잘 찍히는 지 확인해보면 된다. 
 즉, 다른 페이지로 이동하고 싶다면, webapp에 이동할 페이지를 하나 더 생성하여 확인해볼 수 있다.
-<img src = "https://images.velog.io/images/junbee/post/010aa91f-4c98-4608-8167-cb66b70c2c37/image.png" style = "align:center">
-result1.jsp를 생성하고 Step3의 redirect경로를 /result1.jsp로 바꾸어 보면,
+
+<p align="center"><img src = "https://images.velog.io/images/junbee/post/010aa91f-4c98-4608-8167-cb66b70c2c37/image.png" ></p> <br>
+
+result1.jsp를 생성하고 Step3의 redirect경로를 /result1.jsp로 바꾸어 보면,<br>
 
 <p align="center">
   <img src="https://images.velog.io/images/junbee/post/c9b1ec17-1ed2-4482-a364-33f04bfac343/redirect1.gif" alt="animated" />
-</p>
+</p><br>
 
 정상적으로 잘 작동되는것을 확인해 볼 수 있다.
 
@@ -119,13 +122,14 @@ RequestMapping에 배열 형태로 담는다.
 <hr>
 ## Multiple Path
 format : `@RequestMapping({"path1", "path2"})`
-path1과 path2로 요청이 들어왔을 경우 같이 처리하고 싶을 때 사용하는 방식이다.
+path1과 path2로 요청이 들어왔을 경우 같이 처리하고 싶을 때 사용하는 방식이다. <br>
 
 <div style = "background-color:#DAF7A6;">
   <h3 style = "margin:3% 2%;" > Step 1 - JSP 생성</h3>
 </div>
 
 >메인 JSP에서, 요청3 링크와 요청 4 링크를 눌렀을 때, 같은 페이지로 로딩
+
 ```jsp
 	<h2><a href = "${root}/request/test03">요청3</a></h2>
 	<h2><a href = "${root}/request/test04">요청4</a></h2>    
@@ -142,15 +146,16 @@ public String test034(){
 	return "redirect:/result1.jsp";
 }
 ```    
-RequestMapping에 배열 형태로 담는다.
+RequestMapping에 배열 형태로 담는다.<br>
 
 <div style = "background-color:#DAF7A6;">
   <h3 style = "margin:3% 2%;" > Step 3 - 결과 확인</h3>
 </div>
-
+<br>
 <p align="center">
   <img src="https://images.velog.io/images/junbee/post/0f2693e6-09ca-4c67-9c54-0363ad35ab1d/redirec2.gif" alt="animated" />
-</p>
+</p><br>
+
 요청링크 3과 4를 눌렀을때, 둘다 같은 페이지로 이동하는것을 확인해볼 수 있다.
 
 
@@ -215,9 +220,11 @@ action="${root}/Controller에서 찾아야하는 애들 을 주는 것을 잊지
 
 <p style="float:left;">
   <img src="https://images.velog.io/images/junbee/post/27dd0db6-aad3-4f7b-bd82-77631349e5de/test05.gif" alt="animated" /></p>
- <p style = "float:right">
+  
+ <p style = "float:left">
   <img src = "https://images.velog.io/images/junbee/post/27fb59e4-f294-40db-aeb1-71432a5ec260/test05.PNG">
 </p>
+
 <div style="clear:both"></div>
 Get 과 POST 방식을 눌렀을 때, 콘솔에 각각의 메시지들이 찍힌 것을 볼 수 있다. (test034는 위의 메서드에서 호출된 결과이다)
 
@@ -256,7 +263,8 @@ public String test06Post(){
 }
 
 ```
-annotation을사용하면, value값을 더할 필요가 없어서 가독성이 더 좋다.
+annotation을사용하면, value값을 더할 필요가 없어서 가독성이 더 좋다.<br>
+
 <div style = "background-color:#DAF7A6;">
   <h3 style = "margin:3% 2%;" > Step 3 - 결과 확인</h3>
 </div>
