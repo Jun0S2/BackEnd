@@ -50,12 +50,15 @@ Spring Legacy 프로젝트를 생성시 기본적으로 3개의 xml 파일이 �
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 ```
+
 루트가 먼저 메모리에 올라가고, appservlet이 메모리에 올라갈 때, root-context에 있는 자원을 사용한다. root-context에는 `<bean id = " "  class = " "/>` 이런 bean(객체)들이 들어있다.
+
+
 <p align =  "center">
-<img src = "https://images.velog.io/images/junbee/post/365070c5-64a0-4d7f-98f3-61001558c6d8/image.png">
-appServlet은 여러개 생성 가능하다.  
-<img src = "https://images.velog.io/images/junbee/post/488cef2b-10b4-4752-8a10-2d7402e4a261/image.png">
-</p>
+<img src = "https://images.velog.io/images/junbee/post/365070c5-64a0-4d7f-98f3-61001558c6d8/image.png"> </p>	
+<p align = "center"> appServlet은 여러개 생성 가능하다. </p> 
+<p align = "center"><img src = "https://images.velog.io/images/junbee/post/488cef2b-10b4-4752-8a10-2d7402e4a261/image.png"></p>
+
 root-context 는 여러개의 서블릿이 있어도 공통으로 사용된다. 즉, root-context는 공용으로 사용하는 Dao 같은 파일들을 설정해놓는다.
 
 ## 2. App Servlet
