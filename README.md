@@ -73,8 +73,8 @@ Below will be updated as I learn:
 
 **June Park**
 
-- [About Me](https://befitting-locust-a2c.notion.site/June-Park-9a0d59ecf3b242bf9fba1b2f935629c1 "June Park")
-- [Email](mailto:hp0006@mix.wvu.edu?subject=Hi "Hi!")
+- [About Me](https://jun0s2.github.io/about/)
+- [Email](mailto:leen6225@gamil.com?subject=Hi "Hi!")
 - [Blog](https://velog.io/@junbee "Blog")
 
 ## 🤝 Practice Makes Perfect
